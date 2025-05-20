@@ -188,7 +188,7 @@ header .container {
 
 /* Home Page Styles */
 .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/hero-bg.svg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/person_with_headphone.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,19 +457,19 @@ footer {
 }
 
 .products-header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/products-hero.svg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/headphone5.jpg');
 }
 
 .about-header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/about-hero.svg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/person_with_headphone2.jpg');
 }
 
 .deals-header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/deals-hero.svg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/deals.jpg');
 }
 
 .membership-header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/membership-hero.svg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../images/card.jpg');
 }
 
 .products-header h1, .about-header h1, .deals-header h1, .membership-header h1 {
