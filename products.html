@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Noisecore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Noisecore</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="membership.html">Join Membership</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Discover the latest in audio technology innovation</p>
+            </div>
+        </section>
+
+        <section class="product-catalog">
+            <div class="container">
+                <div class="filter-container">
+                    <h3>Filter By Category</h3>
+                    <div class="filter-options">
+                        <button class="filter-btn active" data-filter="all">All Products</button>
+                        <button class="filter-btn" data-filter="headphones">Headphones</button>
+                        <button class="filter-btn" data-filter="earbuds">Earbuds</button>
+                        <button class="filter-btn" data-filter="speakers">Speakers</button>
+                        <button class="filter-btn" data-filter="openear">Open-Ear</button>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Headphones -->
+                    <div class="product-card" data-category="headphones">
+                        <img src="images/headphone1.jpg" alt="Noise Eliminator X300">
+                        <h3>Noise Eliminator X300</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <p class="price">$299.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="headphones">
+                        <img src="images/headphone2.jpg" alt="StudioMaster Pro">
+                        <h3>StudioMaster Pro</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.9/5</span>
+                        </div>
+                        <p class="price">$349.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="headphones">
+                        <img src="images/headphone3.jpg" alt="BassBoost Wireless">
+                        <h3>BassBoost Wireless</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0/5</span>
+                        </div>
+                        <p class="price">$249.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <!-- Earbuds -->
+                    <div class="product-card" data-category="earbuds">
+                        <img src="images/earbud1.jpg" alt="SoundPod Pro">
+                        <h3>SoundPod Pro</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0/5</span>
+                        </div>
+                        <p class="price">$179.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="earbuds">
+                        <img src="images/earbud2.jpg" alt="AudioBud Mini">
+                        <h3>AudioBud Mini</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>3.5/5</span>
+                        </div>
+                        <p class="price">$129.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="earbuds">
+                        <img src="images/earbud3.jpg" alt="PureTone Elite">
+                        <h3>PureTone Elite</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <p class="price">$159.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <!-- Speakers -->
+                    <div class="product-card" data-category="speakers">
+                        <img src="images/speaker1.jpg" alt="BassDrop 360">
+                        <h3>BassDrop 360</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0/5</span>
+                        </div>
+                        <p class="price">$249.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="speakers">
+                        <img src="images/speaker2.jpg" alt="SoundWave Max">
+                        <h3>SoundWave Max</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7/5</span>
+                        </div>
+                        <p class="price">$299.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="speakers">
+                        <img src="images/speaker3.jpg" alt="UltraBoom Portable">
+                        <h3>UltraBoom Portable</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.8/5</span>
+                        </div>
+                        <p class="price">$199.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <!-- Open-Ear Earbuds -->
+                    <div class="product-card" data-category="openear">
+                        <img src="images/openear1.jpg" alt="AirWave Freedom">
+                        <h3>AirWave Freedom</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.6/5</span>
+                        </div>
+                        <p class="price">$199.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="openear">
+                        <img src="images/openear2.jpg" alt="SoundBeam Sport">
+                        <h3>SoundBeam Sport</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.1/5</span>
+                        </div>
+                        <p class="price">$179.99</p>
+                        <a href="#" class="btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Noisecore</h2>
+                    <p>Innovative Audio Technology</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="membership.html">Join Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Sound Street, Audio City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@noisecore.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Noisecore. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
